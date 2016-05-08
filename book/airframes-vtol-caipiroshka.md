@@ -55,7 +55,7 @@ Attach the pitot tube close to the outside edge of one of the wing sides. Make s
 ### Sensor connection to the I2C bus
 Both the airspeed sensor and the external magnetometer (located in the gps housing) need to be connected to the I2C bus of the autopilot. Therefore, you will have to use an I2C splitter like the one indicated in the part list. Connect the splitter board with the I2C bus of the autopilot.  Then connect both the external magnetometer and the airspeed sensor to the splitter board with a standard I2C cable.
 In the upper picture the splitter board is located on the left side of the GPS unit.
-
+The recommanded Air Speedsensor is designed for 5V. Pixracer works with 3.3 V on the I2C Bus. Therefore a level shifter like this is needed: https://www.adafruit.com/products/757
 ### Elevons
 The elevons can be attached to the back side of the wing using transparent tape. You can follow the instructions provided by Team Blacksheep in the build manual for the TBS Caiprinha airframe.
 
